@@ -1,6 +1,9 @@
 import React from 'react';
 import {
-  Switch, Route, BrowserRouter as Router, Redirect,
+  Switch,
+  Route,
+  BrowserRouter as Router,
+  Redirect,
 } from 'react-router-dom';
 
 import Home from './pages/home';
