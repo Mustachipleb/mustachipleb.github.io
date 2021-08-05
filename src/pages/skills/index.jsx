@@ -1,8 +1,6 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
-import {
-  Section, Container, Heading, Tile,
-} from 'react-bulma-components';
+import { Section, Container, Heading, Tile } from 'react-bulma-components';
 
 export default () => (
   <>
