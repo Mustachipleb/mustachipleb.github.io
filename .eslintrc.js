@@ -26,5 +26,10 @@ module.exports = {
     'prettier/prettier': 'error',
     'arrow-body-style': 'off',
     'prefer-arrow-callback': 'off',
+    'no-unused-vars': 'warn',
+    'react/jsx-uses-react': 'error',
+    'react/jsx-uses-vars': 'error',
+    'react/prop-types': 'warn',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
   },
 };
