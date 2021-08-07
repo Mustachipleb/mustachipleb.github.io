@@ -11,9 +11,11 @@ import Skills from './pages/skills';
 import NotFound from './pages/notfound';
 import Contact from './pages/contact';
 import './App.css';
+import Header from './pages/_header';
 
 const App = () => (
   <Router>
+    <Header />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/skills" component={Skills} />
