@@ -105,7 +105,13 @@ export default () => (
                 <Tile>
                   <Tile vertical size={7}>
                     <Tile kind="parent">
-                      <Tile kind="child" backgroundColor="info" p={3}>
+                      <Tile
+                        kind="child"
+                        backgroundColor="info"
+                        p={3}
+                        display="flex"
+                        flexDirection="column"
+                      >
                         <Tech name="React" rating="3" />
                         <Content textColor="white">
                           <p>
@@ -118,7 +124,13 @@ export default () => (
                       </Tile>
                     </Tile>
                     <Tile kind="parent">
-                      <Tile kind="child" backgroundColor="danger" p={3}>
+                      <Tile
+                        kind="child"
+                        backgroundColor="danger"
+                        p={3}
+                        display="flex"
+                        flexDirection="column"
+                      >
                         <Tech name="Angular" rating="3" />
                         <Content textColor="white">
                           <p>
@@ -132,7 +144,13 @@ export default () => (
                   </Tile>
                   <Tile vertical size={5}>
                     <Tile kind="parent">
-                      <Tile kind="child" backgroundColor="dark" p={3}>
+                      <Tile
+                        kind="child"
+                        backgroundColor="dark"
+                        p={3}
+                        display="flex"
+                        flexDirection="column"
+                      >
                         <Tech name="Git" rating="4" />
                         <Content textColor="white">
                           <p>
@@ -148,7 +166,13 @@ export default () => (
                 </Tile>
                 <Tile>
                   <Tile kind="parent">
-                    <Tile kind="child" backgroundColor="success" p={3}>
+                    <Tile
+                      kind="child"
+                      backgroundColor="success"
+                      p={3}
+                      display="flex"
+                      flexDirection="column"
+                    >
                       <Tech name="Unix" rating="2" />
                       <Content textColor="white">
                         <p>
@@ -180,13 +204,19 @@ export default () => (
             </Tile>
             <Tile>
               <Tile kind="parent" size={8}>
-                <Tile kind="child" backgroundColor="grey" p={3}>
+                <Tile
+                  kind="child"
+                  backgroundColor="grey"
+                  p={3}
+                  display="flex"
+                  flexDirection="column"
+                >
                   <Tech name="Java" rating="4" />
                   <Content textColor="white">
                     <p>
-                      While I&apos;m not a sysadmin, I love tinkering with my
-                      Ubuntu servers at home, meaning I can navigate around
-                      Linux with relative ease.
+                      Alongside C#, I&apos;ve also had a fair share of
+                      experience with Java. Concepts like streams, socket
+                      programming and concurrency with locks are not new to me.
                     </p>
                   </Content>
                   <Content textColor="white" mt="auto">
@@ -197,19 +227,52 @@ export default () => (
                       <Tag mt={2} mr={2}>
                         Streams
                       </Tag>
+                      <Tag mt={2} mr={2}>
+                        Socket Programming
+                      </Tag>
+                      <Tag mt={2} mr={2}>
+                        Concurrent Locks
+                      </Tag>
                     </Element>
                   </Content>
                 </Tile>
               </Tile>
               <Tile kind="parent">
-                <Tile kind="child" backgroundColor="link" p={3}>
+                <Tile
+                  kind="child"
+                  backgroundColor="link"
+                  p={3}
+                  display="flex"
+                  flexDirection="column"
+                >
                   <Tech name="SQL" rating="3" />
                   <Content textColor="white">
                     <p>
-                      While I&apos;m not a sysadmin, I love tinkering with my
-                      Ubuntu servers at home, meaning I can navigate around
-                      Linux with relative ease.
+                      I have a good knowledge of advanced SQL concepts, such as
+                      CTEs, window functions, stored procedures etc.
                     </p>
+                  </Content>
+                  <Content textColor="white" mt="auto">
+                    <Element display="flex" flexWrap="wrap">
+                      <Tag mt={2} mr={2}>
+                        Transact-SQL
+                      </Tag>
+                      <Tag mt={2} mr={2}>
+                        Window Functions
+                      </Tag>
+                      <Tag mt={2} mr={2}>
+                        CTE
+                      </Tag>
+                      <Tag mt={2} mr={2}>
+                        Database Programming
+                      </Tag>
+                      <Tag mt={2} mr={2}>
+                        Data Warehousing
+                      </Tag>
+                      <Tag mt={2} mr={2}>
+                        Indexes
+                      </Tag>
+                    </Element>
                   </Content>
                 </Tile>
               </Tile>

@@ -1,9 +1,6 @@
 import 'bulma/css/bulma.css';
 import { Section, Container, Navbar } from 'react-bulma-components';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-
-const 
 
 export default () => (
   <Section py={1}>

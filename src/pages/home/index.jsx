@@ -37,15 +37,14 @@ export default () => (
       <Container>
         <Columns>
           <Columns.Column>
-            <Heading size={3}>Up to date with technology</Heading>
+            <Heading size={3}>Up to date</Heading>
             <Columns>
               <Columns.Column offset={1}>
                 Initially specialised in C#, I acquired a newfound love for
-                React after working for a company called Codifly. With these 2
-                combined, I can tackle both functional and object-oriented
-                workloads with relative ease. New technologies spark my
-                interest, and I keep myself up to date with what I work on and
-                with.
+                React. React. With these 2 combined, I can tackle both
+                functional and functional and object-oriented workloads with
+                relative ease. New spark my interest, and I keep myself up to
+                date with what I work on and with.
               </Columns.Column>
             </Columns>
           </Columns.Column>
@@ -63,13 +62,13 @@ export default () => (
             <Lottie animationData={animation2} />
           </Columns.Column>
           <Columns.Column>
-            <Heading size={3}>Know yourself</Heading>
+            <Heading size={3}>Awareness</Heading>
             <Columns>
               <Columns.Column offset={1}>
-                I pride myself in my ability to reflect on my own abilities and
-                personality. By having this insight, I am able to be a very
-                reliable team player. I always aim to tell the truth, and am by
-                extension able to provide accurate estimations on a daily basis.
+                My ability to reflect on my own abilities and personality allows
+                me to be a very reliable team player. I always aim to tell the
+                truth, and am by extension able to consistently provide accurate
+                estimations.
               </Columns.Column>
             </Columns>
           </Columns.Column>
@@ -81,16 +80,12 @@ export default () => (
       <Container>
         <Columns>
           <Columns.Column>
-            <Heading>Communication is key</Heading>
+            <Heading>Communication</Heading>
             <Columns>
               <Columns.Column offset={1}>
-                Next to my technical capibilities, I also value good
-                communication. Good communication paves the way for great
-                projects, great people, and great friends. Developers often are
-                on the introverted side, so am I. However, it would never stop
-                me from being open and fair towards everyone around me. It would
-                never stop me from being that guy you never get any updates or
-                question from. We&apos;re here to learn, that never ends.
+                Good communication paves the way for great projects, great
+                people, and great friends. I strive to be open and fair towards
+                everyone around me.
               </Columns.Column>
             </Columns>
           </Columns.Column>
