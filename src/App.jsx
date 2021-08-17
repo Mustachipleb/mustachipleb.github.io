@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import {
   Switch,
   Route,
@@ -15,6 +16,9 @@ import Header from './pages/_header';
 
 const App = () => (
   <Router>
+    <Helmet>
+      <title>Nicolas Van Damme</title>
+    </Helmet>
     <Header />
     <Switch>
       <Route exact path="/" component={Home} />
