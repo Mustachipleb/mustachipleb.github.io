@@ -22,9 +22,11 @@ export default () => (
       <Container>
         <Columns>
           <Columns.Column>
-            <Heading size={1}>Nicolas Van Damme</Heading>
+            <Heading title size={1}>
+              Nicolas Van Damme
+            </Heading>
             <Heading subtitle size={4}>
-              Web &amp; Enterprise developer
+              Web &amp; Enterprise Developer
             </Heading>
           </Columns.Column>
           <Columns.Column size={4}>
@@ -37,14 +39,12 @@ export default () => (
       <Container>
         <Columns>
           <Columns.Column>
-            <Heading size={3}>Up to date</Heading>
+            <Heading size={3}>A learner at heart</Heading>
             <Columns>
               <Columns.Column offset={1}>
-                Initially specialised in C#, I acquired a newfound love for
-                React. React. With these 2 combined, I can tackle both
-                functional and functional and object-oriented workloads with
-                relative ease. New spark my interest, and I keep myself up to
-                date with what I work on and with.
+                If there&apos;s one thing I love doing, it&apos;s tinkering with
+                new technologies. Whether it be a new framework or a personal
+                project, my interest in the IT world goes far and wide.
               </Columns.Column>
             </Columns>
           </Columns.Column>
@@ -62,13 +62,12 @@ export default () => (
             <Lottie animationData={animation2} />
           </Columns.Column>
           <Columns.Column>
-            <Heading size={3}>Awareness</Heading>
+            <Heading size={3}>A team player</Heading>
             <Columns>
               <Columns.Column offset={1}>
                 My ability to reflect on my own abilities and personality allows
-                me to be a very reliable team player. I always aim to tell the
-                truth, and am by extension able to consistently provide accurate
-                estimations.
+                me to be a very reliable team member. Transparancy is a trait
+                which I hold close to my heart.
               </Columns.Column>
             </Columns>
           </Columns.Column>
@@ -83,9 +82,9 @@ export default () => (
             <Heading>Communication</Heading>
             <Columns>
               <Columns.Column offset={1}>
-                Good communication paves the way for great projects, great
-                people, and great friends. I strive to be open and fair towards
-                everyone around me.
+                Good communication paves the way for great projects and good
+                comradery. I strive to be open and fair towards everyone around
+                me, and am not afraid to voice concerns.
               </Columns.Column>
             </Columns>
           </Columns.Column>

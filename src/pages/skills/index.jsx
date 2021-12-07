@@ -11,6 +11,7 @@ import {
   Columns,
 } from 'react-bulma-components';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const RatingsTick = styled(Element)`
   border-radius: 9999px;
@@ -54,6 +55,11 @@ const Tech = ({ name, rating }) => {
   );
 };
 
+Tech.propTypes = {
+  name: PropTypes.string.isRequired,
+  rating: PropTypes.number.isRequired,
+};
+
 export default () => (
   <>
     <Section>
@@ -74,24 +80,24 @@ export default () => (
                     <Tech name="C#" rating={5} />
                     <Content textColor="white">
                       <p>
-                        From WPF to ASP.NET, with over 4 years of experience
+                        From WPF to Blazor, with over 4 years of experience
                         writing C# code, I&apos;m confident in my ability to
-                        create readable code and efficient structures.
+                        work with everything related to the language.
                       </p>
                     </Content>
                     <Content textColor="white" mt="auto">
                       <Element display="flex" flexWrap="wrap">
                         <Tag mt={2} mr={2}>
-                          ASP.NET Core MVC
+                          ASP.NET Core
                         </Tag>
                         <Tag mt={2} mr={2}>
-                          ASP.NET Core Web API
+                          Blazor
                         </Tag>
                         <Tag mt={2} mr={2}>
                           EF Core
                         </Tag>
                         <Tag mt={2} mr={2}>
-                          XUnit
+                          AutoMapper
                         </Tag>
                         <Tag mt={2} mr={2}>
                           LINQ
@@ -112,13 +118,13 @@ export default () => (
                         display="flex"
                         flexDirection="column"
                       >
-                        <Tech name="React" rating="3" />
+                        <Tech name="React" rating={3} />
                         <Content textColor="white">
                           <p>
-                            Though my experience with React itself is lacking, I
-                            have already had the oppertunity to learn in a
-                            corporate environment, and I don&apos;t lack the
-                            motivation.
+                            Though my experience with React is limited, I have
+                            already had the oppertunity to learn in a corporate
+                            environment, and I don&apos;t lack the motivation to
+                            learn even more.
                           </p>
                         </Content>
                       </Tile>
@@ -131,7 +137,7 @@ export default () => (
                         display="flex"
                         flexDirection="column"
                       >
-                        <Tech name="Angular" rating="3" />
+                        <Tech name="Angular" rating={2} />
                         <Content textColor="white">
                           <p>
                             My first experience with SPAs, I believe it acted as
@@ -151,7 +157,7 @@ export default () => (
                         display="flex"
                         flexDirection="column"
                       >
-                        <Tech name="Git" rating="4" />
+                        <Tech name="Git" rating={4} />
                         <Content textColor="white">
                           <p>
                             Part of being a good developer is good experience
@@ -173,12 +179,12 @@ export default () => (
                       display="flex"
                       flexDirection="column"
                     >
-                      <Tech name="Unix" rating="2" />
+                      <Tech name="Systems" rating={3} />
                       <Content textColor="white">
                         <p>
                           While I&apos;m not a sysadmin, I love tinkering with
-                          my Ubuntu servers at home, meaning I can navigate
-                          around Linux with relative ease.
+                          my Ubuntu servers at home. That plus my (attempt at)
+                          daily driving Linux makes for a good knowledge of it.
                         </p>
                       </Content>
                       <Content textColor="white" mt="auto">
@@ -190,10 +196,7 @@ export default () => (
                             MacOS
                           </Tag>
                           <Tag mt={2} mr={2}>
-                            Regex
-                          </Tag>
-                          <Tag mt={2} mr={2}>
-                            Shell
+                            Docker
                           </Tag>
                         </Element>
                       </Content>
@@ -203,40 +206,6 @@ export default () => (
               </Tile>
             </Tile>
             <Tile>
-              <Tile kind="parent" size={8}>
-                <Tile
-                  kind="child"
-                  backgroundColor="grey"
-                  p={3}
-                  display="flex"
-                  flexDirection="column"
-                >
-                  <Tech name="Java" rating="4" />
-                  <Content textColor="white">
-                    <p>
-                      Alongside C#, I&apos;ve also had a fair share of
-                      experience with Java. Concepts like streams, socket
-                      programming and concurrency with locks are not new to me.
-                    </p>
-                  </Content>
-                  <Content textColor="white" mt="auto">
-                    <Element display="flex" flexWrap="wrap">
-                      <Tag mt={2} mr={2}>
-                        JavaFX
-                      </Tag>
-                      <Tag mt={2} mr={2}>
-                        Streams
-                      </Tag>
-                      <Tag mt={2} mr={2}>
-                        Socket Programming
-                      </Tag>
-                      <Tag mt={2} mr={2}>
-                        Concurrent Locks
-                      </Tag>
-                    </Element>
-                  </Content>
-                </Tile>
-              </Tile>
               <Tile kind="parent">
                 <Tile
                   kind="child"
@@ -245,7 +214,7 @@ export default () => (
                   display="flex"
                   flexDirection="column"
                 >
-                  <Tech name="SQL" rating="3" />
+                  <Tech name="SQL" rating={3} />
                   <Content textColor="white">
                     <p>
                       I have a good knowledge of advanced SQL concepts, such as
@@ -256,21 +225,6 @@ export default () => (
                     <Element display="flex" flexWrap="wrap">
                       <Tag mt={2} mr={2}>
                         Transact-SQL
-                      </Tag>
-                      <Tag mt={2} mr={2}>
-                        Window Functions
-                      </Tag>
-                      <Tag mt={2} mr={2}>
-                        CTE
-                      </Tag>
-                      <Tag mt={2} mr={2}>
-                        Database Programming
-                      </Tag>
-                      <Tag mt={2} mr={2}>
-                        Data Warehousing
-                      </Tag>
-                      <Tag mt={2} mr={2}>
-                        Indexes
                       </Tag>
                     </Element>
                   </Content>
