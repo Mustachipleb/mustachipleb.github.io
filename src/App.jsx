@@ -13,6 +13,7 @@ import NotFound from './pages/notfound';
 import Contact from './pages/contact';
 import './App.css';
 import Header from './pages/_header';
+import projects from './pages/projects';
 
 const App = () => (
   <Router>
@@ -24,6 +25,7 @@ const App = () => (
       <Route exact path="/" component={Home} />
       <Route path="/skills" component={Skills} />
       <Route path="/contact" component={Contact} />
+      <Route path="/projects" component={projects} />
       <Route path="/404" component={NotFound} />
       <Redirect path="/*" to="/404" />
     </Switch>
