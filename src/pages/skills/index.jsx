@@ -80,9 +80,10 @@ export default () => (
                     <Tech name="C#" rating={5} />
                     <Content textColor="white">
                       <p>
-                        From WPF to Blazor, with over 4 years of experience
+                        From WPF to Blazor, with over 5 years of experience
                         writing C# code, I&apos;m confident in my ability to
-                        work with everything related to the language.
+                        work with most concepts related to it. Especially
+                        ASP.NET Core and Entity Framework Core.
                       </p>
                     </Content>
                     <Content textColor="white" mt="auto">
@@ -118,14 +119,30 @@ export default () => (
                         display="flex"
                         flexDirection="column"
                       >
-                        <Tech name="React" rating={3} />
+                        <Tech name="React" rating={5} />
                         <Content textColor="white">
                           <p>
-                            Though my experience with React is limited, I have
-                            already had the oppertunity to learn in a corporate
-                            environment, and I don&apos;t lack the motivation to
-                            learn even more.
+                            The place where I did my internship and the place
+                            where I currently work, Codifly, is where I first
+                            came in contact with React. Since then, I like to
+                            believe I&apos;ve become a capable React developer.
                           </p>
+                        </Content>
+                        <Content textColor="white" mt="auto">
+                          <Element display="flex" flexWrap="wrap">
+                            <Tag mt={2} mr={2}>
+                              Mocha
+                            </Tag>
+                            <Tag mt={2} mr={2}>
+                              Apollo
+                            </Tag>
+                            <Tag mt={2} mr={2}>
+                              Cypress
+                            </Tag>
+                            <Tag mt={2} mr={2}>
+                              GraphQL
+                            </Tag>
+                          </Element>
                         </Content>
                       </Tile>
                     </Tile>
@@ -182,9 +199,10 @@ export default () => (
                       <Tech name="Systems" rating={3} />
                       <Content textColor="white">
                         <p>
-                          While I&apos;m not a sysadmin, I love tinkering with
-                          my Ubuntu servers at home. That plus my (attempt at)
-                          daily driving Linux makes for a good knowledge of it.
+                          While I&apos;m not a system administrator, I love
+                          tinkering with my Ubuntu servers at home. That plus my
+                          (attempt at) daily driving Linux makes for a good
+                          knowledge of it.
                         </p>
                       </Content>
                       <Content textColor="white" mt="auto">
@@ -197,6 +215,15 @@ export default () => (
                           </Tag>
                           <Tag mt={2} mr={2}>
                             Docker
+                          </Tag>
+                          <Tag mt={2} mr={2}>
+                            docker-compose
+                          </Tag>
+                          <Tag mt={2} mr={2}>
+                            Portainer
+                          </Tag>
+                          <Tag mt={2} mr={2}>
+                            Grafana
                           </Tag>
                         </Element>
                       </Content>
@@ -214,7 +241,7 @@ export default () => (
                   display="flex"
                   flexDirection="column"
                 >
-                  <Tech name="SQL" rating={3} />
+                  <Tech name="SQL" rating={4} />
                   <Content textColor="white">
                     <p>
                       I have a good knowledge of advanced SQL concepts, such as
@@ -225,6 +252,9 @@ export default () => (
                     <Element display="flex" flexWrap="wrap">
                       <Tag mt={2} mr={2}>
                         Transact-SQL
+                      </Tag>
+                      <Tag mt={2} mr={2}>
+                        PostgreSQL
                       </Tag>
                     </Element>
                   </Content>

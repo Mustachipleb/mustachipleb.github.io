@@ -9,33 +9,42 @@ import {
 } from 'react-bulma-components';
 import Lottie from 'lottie-react';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 import animation1 from './animations/animation1.json';
 import animation2 from './animations/animation2.json';
 import animation3 from './animations/animation3.json';
-import animation4 from './animations/animation4.json';
 import portrait from './images/portrait.jpg';
+
+const CenteredColumn = styled(Columns.Column)`
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+`;
+
+const StyledSection = styled(Section)`
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+`;
 
 export default () => (
   <>
-    <Section>
+    <StyledSection>
       <Container>
         <Columns>
           <Columns.Column>
-            <Heading title size={1}>
-              Nicolas Van Damme
-            </Heading>
+            <Heading size={1}>Nicolas Van Damme</Heading>
             <Heading subtitle size={4}>
-              Web &amp; Enterprise Developer
+              Web &amp; Mobile Developer @ Codifly
             </Heading>
           </Columns.Column>
-          <Columns.Column size={4}>
+          <Columns.Column size={3}>
             <Image src={portrait} alt="" rounded />
           </Columns.Column>
         </Columns>
       </Container>
-    </Section>
-    <Section>
+    </StyledSection>
+    <StyledSection>
       <Container>
         <Columns>
           <Columns.Column>
@@ -54,8 +63,8 @@ export default () => (
           <Columns.Column size={1} />
         </Columns>
       </Container>
-    </Section>
-    <Section>
+    </StyledSection>
+    <StyledSection>
       <Container>
         <Columns>
           <Columns.Column size={4}>
@@ -74,8 +83,8 @@ export default () => (
           <Columns.Column size={1} />
         </Columns>
       </Container>
-    </Section>
-    <Section>
+    </StyledSection>
+    <StyledSection>
       <Container>
         <Columns>
           <Columns.Column>
@@ -94,26 +103,19 @@ export default () => (
           <Columns.Column size={1} />
         </Columns>
       </Container>
-    </Section>
-    <Section>
+    </StyledSection>
+    <StyledSection>
       <Container>
         <Columns>
-          <Columns.Column size={3}>
-            <Lottie animationData={animation4} />
-          </Columns.Column>
-          <Columns.Column>
-            <Heading>Final word</Heading>
-            <Columns>
-              <Columns.Column offset={1}>
-                Did I spark your interest? Do you want to have a word with me?
-                My contact information is available right{' '}
-                <Link to="/contact">here</Link>.
-              </Columns.Column>
-            </Columns>
-          </Columns.Column>
-          <Columns.Column size={1} />
+          <CenteredColumn>
+            <Heading textSize={4}>
+              Did I spark your interest? Do you want to have a word with me? My
+              contact information is available right{' '}
+              <Link to="/contact">here</Link>.
+            </Heading>
+          </CenteredColumn>
         </Columns>
       </Container>
-    </Section>
+    </StyledSection>
   </>
 );

@@ -11,13 +11,22 @@ export default () => (
             Contact
           </Heading>
           <Heading size={4} subtitle mb={1}>
-            E-mail
+            E-mail (Personal)
           </Heading>
           <a
             href="mailto:nicolasvandamme2@hotmail.com"
             className="is-block mb-4"
           >
             nicolasvandamme2@hotmail.com
+          </a>
+          <Heading size={4} subtitle mb={1}>
+            E-mail (Work)
+          </Heading>
+          <a
+            href="mailto:nicolas.van.damme@codifly.be"
+            className="is-block mb-4"
+          >
+            nicolas.van.damme@codifly.be
           </a>
           <Heading size={4} subtitle mb={1}>
             LinkedIn
