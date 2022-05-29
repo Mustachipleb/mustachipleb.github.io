@@ -11,7 +11,11 @@ import {
   Columns,
 } from 'react-bulma-components';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
+
+type TechProps = {
+  name: string;
+  rating: number;
+}
 
 const RatingsTick = styled(Element)`
   border-radius: 9999px;
@@ -19,7 +23,7 @@ const RatingsTick = styled(Element)`
   vertical-align: middle;
 `;
 
-const Tech = ({ name, rating }) => {
+const Tech = ({ name, rating }: TechProps) => {
   const ratingObj = [];
   for (let i = 4; i >= 0; i--) {
     ratingObj.push(
@@ -53,11 +57,6 @@ const Tech = ({ name, rating }) => {
       </Columns.Column>
     </Columns>
   );
-};
-
-Tech.propTypes = {
-  name: PropTypes.string.isRequired,
-  rating: PropTypes.number.isRequired,
 };
 
 export default () => (

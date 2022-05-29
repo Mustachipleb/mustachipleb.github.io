@@ -12,7 +12,7 @@ export default () => (
           </Heading>
           <Container mb={4}>
             <Heading size={4}>Codifly&apos;s Corporate Website</Heading>
-            <Heading size={7} subtitle mb={1}>
+            <Heading size={6} subtitle mb={1}>
               Jun 2021
             </Heading>
             <p>
@@ -25,7 +25,7 @@ export default () => (
           </Container>
           <Container mb={4}>
             <Heading size={4}>Reservation System for HIER.</Heading>
-            <Heading size={7} subtitle mb={1}>
+            <Heading size={6} subtitle mb={1}>
               Sept 2021 - Jan 2022
             </Heading>
             <p>
@@ -39,7 +39,7 @@ export default () => (
           </Container>
           <Container mb={4}>
             <Heading size={4}>The Home Stack</Heading>
-            <Heading size={7} subtitle mb={1}>
+            <Heading size={6} subtitle mb={1}>
               Oct 2021 (ongoing)
             </Heading>
             <p>
@@ -53,7 +53,7 @@ export default () => (
           </Container>
           <Container mb={4}>
             <Heading size={4}>Depannage Steps</Heading>
-            <Heading size={7} subtitle mb={1}>
+            <Heading size={6} subtitle mb={1}>
               Feb 2022 (ongoing)
             </Heading>
             <p>
@@ -72,7 +72,7 @@ export default () => (
           </Container>
           <Container mb={4}>
             <Heading size={4}>Thesis</Heading>
-            <Heading size={7} subtitle mb={1}>
+            <Heading size={6} subtitle mb={1}>
               Sep 2021 - May 2022
             </Heading>
             <p>
