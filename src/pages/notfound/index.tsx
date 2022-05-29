@@ -9,7 +9,7 @@ export default () => (
   <Section>
     <Container>
       <Columns>
-        <Columns.Column centered>
+        <Columns.Column>
           <Heading size={1}>Oops...</Heading>
           <Heading size={3}>
             I looked far and wide for the page you asked for, but I found

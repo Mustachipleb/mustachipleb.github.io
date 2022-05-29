@@ -2,7 +2,6 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    jest: true,
   },
   extends: [
     'plugin:react/recommended',
@@ -31,5 +30,6 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'react/prop-types': 'warn',
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'react/jsx-filename-extension': 'off',
   },
 };
