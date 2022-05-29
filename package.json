@@ -10,6 +10,7 @@
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.25",
     "bulma": "^0.9.4",
+    "gh-pages": "^4.0.0",
     "lottie-react": "^2.2.1",
     "parcel": "^2.6.0",
     "prettier-eslint-cli": "^5.0.1",
@@ -26,7 +27,7 @@
     "build": "parcel build src/index.html",
     "lint": "eslint ./ --fix && prettier ./ --write",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
