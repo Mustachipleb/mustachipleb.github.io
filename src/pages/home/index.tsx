@@ -58,7 +58,7 @@ export default () => (
             </Columns>
           </Columns.Column>
           <Columns.Column size={3}>
-            <Lottie animationData={animation1} />
+            <Lottie animationData={animation1} loop/>
           </Columns.Column>
           <Columns.Column size={1} />
         </Columns>
@@ -68,7 +68,7 @@ export default () => (
       <Container>
         <Columns>
           <Columns.Column size={4}>
-            <Lottie animationData={animation2} />
+            <Lottie animationData={animation2} loop/>
           </Columns.Column>
           <Columns.Column>
             <Heading size={3}>A team player</Heading>
@@ -98,7 +98,7 @@ export default () => (
             </Columns>
           </Columns.Column>
           <Columns.Column size={5}>
-            <Lottie animationData={animation3} />
+            <Lottie animationData={animation3} loop/>
           </Columns.Column>
           <Columns.Column size={1} />
         </Columns>

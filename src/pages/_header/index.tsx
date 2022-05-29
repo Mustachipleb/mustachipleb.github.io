@@ -31,17 +31,6 @@ export default () => {
 
   return (
     <>
-      <Background>
-        <Extension />
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#00cba9"
-            fillOpacity="1"
-            d="M0,256L80,218.7C160,181,320,107,480,96C640,85,800,139,960,170.7C1120,203,1280,213,1360,218.7L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-            data-darkreader-inline-fill=""
-          />
-        </svg>
-      </Background>
       <TransparentNavbar>
         <Navbar.Brand>
           <Navbar.Burger
@@ -52,16 +41,16 @@ export default () => {
         <Navbar.Menu className={`${active ? 'is-active' : ''}`}>
           <Navbar.Container>
             <Link to="/" onClick={handleClick}>
-              <Navbar.Item>About me</Navbar.Item>
+              <div className='navbar-item'>About me</div>
             </Link>
             <Link to="/skills" onClick={handleClick}>
-              <Navbar.Item>Skills</Navbar.Item>
+              <div className='navbar-item'>Skills</div>
             </Link>
             <Link to="/contact" onClick={handleClick}>
-              <Navbar.Item>Contact me</Navbar.Item>
+              <div className='navbar-item'>Contact me</div>
             </Link>
             <Link to="/projects" onClick={handleClick}>
-              <Navbar.Item>Projects</Navbar.Item>
+              <div className='navbar-item'>Projects</div>
             </Link>
           </Navbar.Container>
         </Navbar.Menu>
